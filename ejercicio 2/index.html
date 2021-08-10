@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">       
+
+    <title>Contador de caracteres</title>
+</head>
+<body>
+    
+		<h1> Ingrese los caracteres que deseé:</h1> 
+		<textarea name="contador" id="cantidad"  onkeyup="contador();"></textarea>
+        <h2 id="ingresado"></h2>
+	
+    <script>
+        var total = 500;
+
+    function contador(){
+        var cantidad = document.getElementById ('cantidad');
+        var ingresado = document.getElementById ('ingresado');
+        var resultado = cantidad.value.length;
+        resultado = parseInt(resultado);
+            document.getElementById ('ingresado').innerHTML = ( "los caracteres tipeados hasta el momento son:"+ " " + resultado );
+    }
+    </script>
+</body>
+</html>

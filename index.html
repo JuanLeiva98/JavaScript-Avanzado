@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">    
+    <title> Java Script Avanzado</title>
+    <link rel="stylesheet" href="estilo.css">       
+       
+
+</head>
+    <body>
+        <div class= "num0">
+            <button class="mybuttom0" id='boton0' > Cambiar a rosa </button>   
+        </div>
+         
+        <div class= "num1">
+            <button class="mybuttom1" id='boton1'> Cambiar a naranja </button>
+        </div>
+        <div class= "num2">
+            <button class="mybuttom2" id='boton2'> Cambiar a azul </button>
+        </div>
+        <script>
+            var boton0 = document.getElementById ('boton0');
+            var num0 = document.getElementsByClassName ('num0') [0];
+
+         boton0.addEventListener('click', function() {
+            num0.classList.replace('num0', 'boton');});
+
+            var boton1 = document.getElementById ('boton1');
+            var num1 = document.getElementsByClassName ('num1') [0];
+
+         boton1.addEventListener('click', function() {
+            num1.classList.replace('num1', 'boton2');});
+
+            var boton2 = document.getElementById ('boton2');
+            var num2 = document.getElementsByClassName ('num2') [0];
+
+         boton2.addEventListener('click', function() {
+            num2.classList.replace('num2', 'boton3');
+            
+           });
+        </script>
+    </body> 
+</html>

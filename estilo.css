@@ -1,0 +1,84 @@
+.num0{
+background: brown;
+display: flex;
+justify-content: center;
+align-content: center;
+margin: auto;
+height: 150px;
+width: 900px
+}
+.boton{
+    background: pink;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: auto;
+    height: 150px;
+    width: 900px
+    }
+
+    .boton2{
+        background: orange;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        margin: auto;
+        height: 150px;
+        width: 900px
+        }
+        .boton3{
+            background: blue;
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            margin: auto;
+            height: 150px;
+            width: 900px
+            }
+
+
+    .num1{
+        background: yellow;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        margin: auto;
+        height: 150px;
+        width: 900px
+        }
+
+            .num2{
+                background: rgb(58, 241, 12);
+                display: flex;
+                justify-content: center;
+                align-content: center;
+                margin: auto;
+                height: 150px;
+                width: 900px
+                }
+
+                .mybuttom0{
+                    margin-top: 50px;
+                    height: 50px;
+                    width: 200px  
+                }
+
+                .mybuttom1{
+                    margin-top: 50px;
+                    height: 50px;
+                    width: 200px  
+                }
+
+                .mybuttom2{
+                    margin-top: 50px;
+                    height: 50px;
+                    width: 200px  
+                }
+
+                .num0.boton0{
+                background: pink;
+                }
+.titulo{
+font-family: 'Courier New', Courier, monospace;
+font-size: 10%;
+}
